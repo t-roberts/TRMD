@@ -204,7 +204,8 @@ The **signIn()** method will take the access_token value returned from the user'
 
 13.  Hit F5 or Start Debugging.
 14.  Click the "Sign into Skype" button and provide your credentials.  After submitting the credentials, you should see the Skype "Loading" animated gif and then be presented with the following screen:
-![image](screenshots/login_success_blank.png).
+
+	![image](screenshots/login_success_blank.png).
 
 ##Setting up Excel Data
 
