@@ -27,7 +27,7 @@ In this lab you will get hands-on experience developing an Excel add-in with Sky
 7.  On the top navigation, click the **Insert** tab and select **My Add-ins**.
 8.  In the **Developer Add-in** section, click on your application name.
 
-	![image](screenshots/Add-in.png)
+	![image](Screenshots/Add-in.png)
 
 9.  The add in should now appear in the right task pane.  Click close and save your excel file.
 6.  Navigate to [https://msdn.microsoft.com/en-us/office/office365/howto/add-common-consent-manually] in order to create your application in Azure and attain your **Client ID**.  Note this ID as it will be used later in the lab.
@@ -35,7 +35,7 @@ In this lab you will get hands-on experience developing an Excel add-in with Sky
 8.  Double click on the ExcelAddIn App for Office project.
 9.  Set the Display name to **Skype for Business Excel Add In**
 8.  Hit **F5** or **the Start Button** in Visual Studio.  The Excel sheet should appear:
-    ![image](screenshots/launch_excel.PNG)
+    ![image](Screenshots/launch_excel.PNG)
 
 ##Signing into Skype for Business
 This section will instruct a user on how to add code to your application in order to connect to Skype for Business.
