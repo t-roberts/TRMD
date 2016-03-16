@@ -476,20 +476,20 @@ In order for other users in your organization to take advantage of the add-in yo
 
 3. Select **Import publishing profile** and browse to the downloaded Azure Publish Profile from the pre-requisites.  Click Finish.
 
-	![image](screenshots/publish_path.png)
+	![image](screenshots/publish_path.PNG)
 
 4. Double click the ExcelAddinManifest file and make sure the source location is set to `https://[yourwebsitedomain]/App/Home/Home.html`
 5. Add your O365 tenant domain to the AppDomains list on the ExcelAddInManifest -> App Domains tab.
 
-	![image](screenshots/allowed_domains.png)
+	![image](screenshots/allowed_domains.PNG)
 
 6. On the Publish screen, click the **Package the app** option.
 
-	![image](screenshots/package_app.png)
+	![image](screenshots/package_app.PNG)
 
 7. Next, click the **Deploy your web project** button on the Publish screen.
 
-	![image](screenshots/deploy.png)
+	![image](screenshots/deploy.PNG)
 
 8. Use the Web Deploy Option and follow the wizard.
 9. Follow the steps at this link to publish your add-in to the add-in catalog [https://msdn.microsoft.com/en-us/library/office/fp123515.aspx]
@@ -497,8 +497,8 @@ In order for other users in your organization to take advantage of the add-in yo
 10. Login to the Office 365 portal [https://portal.officeppe.com].
 11. Open a new Excel document.
 12. On the Insert Tab, select **Add-ins**
-=======
-#Skype for Business Office 365 Add-in
+
+##Skype for Business Office 365 Add-in
 
 In this lab you will get hands-on experience developing an Excel add-in with Skype for Business integration.  The sample add-in will allow an Office 365 user to perform the following from within Excel:
 1.  Sign into Skype for Business.
