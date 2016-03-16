@@ -944,7 +944,7 @@ A new feature in the Skype for Business Online SDK is the Conversation Control. 
 8. Type a message and hit Enter.
 9. Type a message in the Skype for Business Client and type enter.  You should see your first chat interaction.
 
-	![image](screenshots/conversation.png)
+	![image](screenshots/conversation.PNG)
     
 10. Close the chat by clicking the red phone button.
 11. Select another user in Excel, click the chat icon, and then click the video icon.
