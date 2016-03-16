@@ -76,7 +76,7 @@ This method will be responsible for displaying the standard azure authentication
 ```
 
 7.  Hit F5 or the "Start Debug" button in visual studio to test bringing up the azure authentication page.  You should see the following view in the add-in pane:
-![image](screenshots/azure_login.png)
+	![image](screenshots/azure_login.png)
 
 Close the Excel sheet.
 
