@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #Skype for Business Office 365 Add-in
 
 In this lab you will get hands-on experience developing an Excel add-in with Skype for Business integration.  The sample add-in will allow an Office 365 user to perform the following from within Excel:
