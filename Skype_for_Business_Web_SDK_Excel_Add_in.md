@@ -337,7 +337,7 @@ Now that the functionality for getting selected information from Excel is setup,
 5. Run the code and login.
 6. Once you are logged in, select an Excel cell with an email address.  Watch the right task pane updated with the selected user contact information:
 
-	![image](screenshots/contact_card.png)
+	![image](screenshots/contact_card.PNG)
 
 7. If you select another user, you will see the contact info update again in the task pane.
 
