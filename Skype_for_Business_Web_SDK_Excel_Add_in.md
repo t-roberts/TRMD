@@ -9,8 +9,11 @@ In this lab you will get hands-on experience developing an Excel add-in with Sky
 5.  Publish add-in to the O365 tenant app store.
 
 >**Prerequisites:** Before beginning the lab, the following items will be needed:
+>
 >1.  Visual Studio 2013 and above.
+>
 >2.  At least (2) Office 365 user credentials.
+>
 >3.  Each user have the other user added to his or her contacts.
 >4.  Skype for Business Client application.
 >5.  A web application created in Azure to host the add-in [https://azure.microsoft.com/en-us/documentation/articles/web-sites-dotnet-get-started/]
