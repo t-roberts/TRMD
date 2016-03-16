@@ -27,7 +27,7 @@ In this lab you will get hands-on experience developing an Excel add-in with Sky
 7.  On the top navigation, click the **Insert** tab and select **My Add-ins**.
 8.  In the **Developer Add-in** section, click on your application name.
 
-	![image](screenshots/Add-in.PNG)
+	![image](screenshots/Add-in.png)
 
 9.  The add in should now appear in the right task pane.  Click close and save your excel file.
 6.  Navigate to [https://msdn.microsoft.com/en-us/office/office365/howto/add-common-consent-manually] in order to create your application in Azure and attain your **Client ID**.  Note this ID as it will be used later in the lab.
@@ -449,8 +449,7 @@ A new feature in the Skype for Business Online SDK is the Conversation Control. 
 7. Once you see the user information, click the chat icon
 8. Type a message and hit Enter.
 9. Type a message in the Skype for Business Client and type enter.  You should see your first chat interaction.
-
-	![image](screenshots/conversation.png)
+![image](screenshots/conversation.PNG)
     
 10. Close the chat by clicking the red phone button.
 11. Select another user in Excel, click the chat icon, and then click the video icon.
