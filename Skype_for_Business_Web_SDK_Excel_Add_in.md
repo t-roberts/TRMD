@@ -11,9 +11,7 @@ In this lab you will get hands-on experience developing an Excel add-in with Sky
 >**Prerequisites:** Before beginning the lab, the following items will be needed:
 >
 >1.  Visual Studio 2013 and above.
->
 >2.  At least (2) Office 365 user credentials.
->
 >3.  Each user have the other user added to his or her contacts.
 >4.  Skype for Business Client application.
 >5.  A web application created in Azure to host the add-in [https://azure.microsoft.com/en-us/documentation/articles/web-sites-dotnet-get-started/]
@@ -29,7 +27,7 @@ In this lab you will get hands-on experience developing an Excel add-in with Sky
 7.  On the top navigation, click the **Insert** tab and select **My Add-ins**.
 8.  In the **Developer Add-in** section, click on your application name.
 
-	![image](screenshots/Add-in.png)
+	![image](screenshots/Add-in.PNG)
 
 9.  The add in should now appear in the right task pane.  Click close and save your excel file.
 6.  Navigate to [https://msdn.microsoft.com/en-us/office/office365/howto/add-common-consent-manually] in order to create your application in Azure and attain your **Client ID**.  Note this ID as it will be used later in the lab.
@@ -37,7 +35,7 @@ In this lab you will get hands-on experience developing an Excel add-in with Sky
 8.  Double click on the ExcelAddIn App for Office project.
 9.  Set the Display name to **Skype for Business Excel Add In**
 8.  Hit **F5** or **the Start Button** in Visual Studio.  The Excel sheet should appear:
-    ![image](Screenshots/launch_excel.png)
+    ![image](screenshots/launch_excel.PNG)
 
 ##Signing into Skype for Business
 This section will instruct a user on how to add code to your application in order to connect to Skype for Business.
@@ -78,7 +76,7 @@ This method will be responsible for displaying the standard azure authentication
 ```
 
 7.  Hit F5 or the "Start Debug" button in visual studio to test bringing up the azure authentication page.  You should see the following view in the add-in pane:
-![image](Screenshots/azure_login.png)
+![image](screenshots/azure_login.png)
 Close the Excel sheet.
 
 8.  Create the following **pageLoading()** function to display the Skype Loading gif:
@@ -204,7 +202,7 @@ The **signIn()** method will take the access_token value returned from the user'
 
 13.  Hit F5 or Start Debugging.
 14.  Click the "Sign into Skype" button and provide your credentials.  After submitting the credentials, you should see the Skype "Loading" animated gif and then be presented with the following screen:
-![image](Screenshots/login_success_blank.png).
+![image](screenshots/login_success_blank.png).
 
 ##Setting up Excel Data
 
@@ -423,6 +421,7 @@ A new feature in the Skype for Business Online SDK is the Conversation Control. 
 
     }
     ```
+    
     In the **startConversation()** method, the selected user sip address is created as an ID for a container to hold the conversation control markup.  The renderConversation method requires that a chat modality be specified, a participant sip to start the conversation, and a container to pain the control.
     
     The **endConversation()** method is removing the conversation from the conversation manager.
@@ -434,7 +433,8 @@ A new feature in the Skype for Business Online SDK is the Conversation Control. 
     ```javascript
     $('#selectedChat').click(startConversation);
     $('#closeChat').click(endConversation);
-            ```
+    ```
+    
     Add the previous two button click events to the **document.ready(function(){})** function.
     
     ```javascript
@@ -531,7 +531,7 @@ In this lab you will get hands-on experience developing an Excel add-in with Sky
 8.  Double click on the ExcelAddIn App for Office project.
 9.  Set the Display name to **Skype for Business Excel Add In**
 8.  Hit **F5** or **the Start Button** in Visual Studio.  The Excel sheet should appear:
-    ![image](Screenshots/launch_excel.png)
+    ![image](screenshots/launch_excel.png)
 
 ##Signing into Skype for Business
 This section will instruct a user on how to add code to your application in order to connect to Skype for Business.
@@ -572,7 +572,7 @@ This method will be responsible for displaying the standard azure authentication
 ```
 
 7.  Hit F5 or the "Start Debug" button in visual studio to test bringing up the azure authentication page.  You should see the following view in the add-in pane:
-![image](Screenshots/azure_login.png)
+![image](screenshots/azure_login.png)
 Close the Excel sheet.
 
 8.  Create the following **pageLoading()** function to display the Skype Loading gif:
@@ -698,7 +698,7 @@ The **signIn()** method will take the access_token value returned from the user'
 
 13.  Hit F5 or Start Debugging.
 14.  Click the "Sign into Skype" button and provide your credentials.  After submitting the credentials, you should see the Skype "Loading" animated gif and then be presented with the following screen:
-![image](Screenshots/login_success_blank.png).
+![image](screenshots/login_success_blank.png).
 
 ##Setting up Excel Data
 
